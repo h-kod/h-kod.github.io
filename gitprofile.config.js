@@ -2,45 +2,42 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'h-kod', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 5, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    linkedin: 'h-kod',
+    // twitter: 'arif_szn',
+    // facebook: '',
+    // instagram: '',
+    dribbble: 'hkod',
+    // behance: 'h-kod',
+    medium: 'h-kod',
+    dev: 'h-kod',
+    website: 'https://h-kod.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'husemecen@gmail.com',
   },
   resume: {
     fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Vue.js',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
+    'SASS',
+    'React.js',
+    'Git',
     'Tailwind',
+    'Bootstrap',
+    'PHP',
+    'UI-UX Design',
+    'Many CMS',
   ],
   experiences: [
     {
